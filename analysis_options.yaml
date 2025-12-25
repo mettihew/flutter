@@ -1,0 +1,7 @@
+analyzer:
+  errors:
+    use_key_in_widget_constructors: ignore # ← "Stop nagging about keys!"
+    missing_required_param: error          # ← "This IS important!"
+    
+  style:
+    always_specify_types: true             # ← "Be specific about types!"
